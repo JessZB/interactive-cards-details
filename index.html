@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+
+
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="container">
+    <header class="notification-header">
+      <h2>Notifications <b>3</b></h2>
+      <a id="readall" href="#">Mark all as read</a>
+    </header>
+    <section class="notifications-section">
+
+      <article class="notification new">
+        <img class="notification-avatar" src="assets/images/avatar-mark-webber.webp" alt="" srcset="">
+        <div class="notification-info">
+          <p class="notification-text">
+            <b class="notification-name">Mark Webber</b>
+            reacted to your recent post
+            <b class="notification-name">My first tournament today!</b>
+            <span class="notification-point"></span>
+          </p>
+         
+
+
+          <time datetime="2020">1m ago
+          </time>
+        </div>
+      </article>
+
+      <article class="notification new">
+        <img class="notification-avatar" src="assets/images/avatar-angela-gray.webp" alt="" srcset="">
+        <div class="notification-info">
+          <p class="notification-text">
+            <b class="notification-name"> Angela Gray</b> followed you
+            <span class="notification-point"></span>
+          </p>
+          <time datetime="2020"> 5m ago</time>
+        </div>
+      </article>
+
+      <article class="notification new">
+        <img class="notification-avatar" src="assets/images/avatar-jacob-thompson.webp" alt="" srcset="">
+        <div class="notification-info">
+          <p class="notification-text">
+            <b class="notification-name">Jacob Thompson</b> has joined your group <b class="notification-name">Chess
+              Club</b>
+              <span class="notification-point"></span>
+          </p>
+          <time datetime="2020">1 day ago</time>
+        </div>
+      </article>
+
+      <article class="notification">
+        <img class="notification-avatar" src="assets/images/avatar-rizky-hasanuddin.webp" alt="" srcset="">
+        <div class="notification-info">
+          <p class="notification-text">
+            <b class="notification-name">Rizky Hasanuddin</b> sent you a private message
+          </p>
+          <time datetime="2020">5 days ago</time>
+        </div>
+      </article>
+      <p class="message">
+        Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+        I'm already having lots of fun and improving my game.
+      </p>
+      <article class="notification">
+        <img class="notification-avatar" src="assets/images/avatar-kimberly-smith.webp" alt="" srcset="">
+        <div class="notification-info">
+          <p class="notification-text">
+            <b class="notification-name">Kimberly Smith</b> commented on your picture
+          </p>
+          <time datetime="2020"> 1 week ago</time>
+        </div>
+        <img src="assets/images/image-chess.webp" alt="">
+      </article>
+
+      <article class="notification">
+        <img class="notification-avatar" src="assets/images/avatar-nathan-peterson.webp" alt="" srcset="">
+        <div class="notification-info">
+          <p class="notification-text">
+            <b class="notification-name">Nathan Peterson</b> reacted to your recent post <b class="notification-name">5
+              end-game strategies to
+              increase your win rate</b>
+          </p>
+          <time datetime="2020">2 week ago</time>
+        </div>
+      </article>
+
+      <article class="notification">
+        <img class="notification-avatar" src="assets/images/avatar-anna-kim.webp" alt="" srcset="">
+        <div class="notification-info">
+          <p class="notification-text">
+            <b class="notification-name">Anna Kim</b> left the group <b class="notification-name">Chess Club</b>
+          </p>
+          <time datetime="2020">2 weeks ago</time>
+        </div>
+      </article>
+    </section>
+
+  </main>
+  <script src="index.js"></script>
+</body>
+
+</html>
